@@ -1,0 +1,72 @@
+﻿
+@{
+    ViewBag.Title = "PatientList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="right_col" role="main">
+    <div class="">
+        <div class="clearfix"></div>
+
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="x_panel">
+                <div class="x_title">
+                    <h2>HASTA LİSTESİ </h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                        <li>
+                            <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                        </li>                        
+                        <li>
+                            <a class="close-link"><i class="fa fa-close"></i></a>
+                        </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="x_content">
+
+                    <p>Mevcut hasta listesini aşağıdaki tabloda görebilirsiniz : </p>
+
+                    <div class="table-responsive">
+                        <table class="table table-striped jambo_table bulk_action">
+                            <thead>
+                                <tr class="headings">
+                                    <th>
+                                        <input type="checkbox" id="check-all" class="flat">
+                                    </th>
+                                    <th class="column-title">Hasta Detay </th>
+                                    <th class="column-title">TC Kimlik No </th>
+                                    <th class="column-title">Ad </th>
+                                    <th class="column-title">Soyad</th>
+                                    <th class="column-title">Cinsiyet</th>
+                                    <th class="column-title">Doğum Tarihi </th>
+                                    <th class="column-title">Telefon Numarası </th>
+                                    <th class="column-title">E-Mail</th>
+                                    </th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr class="even pointer">
+                                    <td class="a-center ">
+                                        <input type="checkbox" class="flat" name="table_records">
+                                    </td>
+                                    <td class=" "><button type="button" class="btn btn-info">Git</button></td>
+                                    <td class=" ">12345678910 </td>
+                                    <td class=" ">Esra</td>
+                                    <td class=" ">Kıroğlu</td>
+                                    <td class=" ">Kadın</td>
+                                    <td class=" ">00.00.1000</td>
+                                    <td class=" ">1234657890</td>
+                                    <td class=" ">eksh@gmail.com</td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
